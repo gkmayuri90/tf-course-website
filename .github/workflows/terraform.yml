@@ -94,7 +94,7 @@ jobs:
         GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
 
     # Save the execution plan in an artifact
-    - name: 'Upload Plan Artifact'
+    - name: Upload Plan Artifact
       uses: actions/upload-artifact@v3
       with:
         name: website.plan
